@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ["react-toastify","axios"],
+      external: ["react-toastify","react-router-dom","axios"],
     },
   },
   plugins: [react()],
