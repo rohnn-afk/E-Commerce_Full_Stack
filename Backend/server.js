@@ -26,6 +26,12 @@ app.use('/api/cart',cartRouter)
 app.use('/api/order',orderRouter)
 
 
+app.get("/", (req, res) => {
+    res.send("Backend is working!");
+  });
+  
+
+
 //connection///////////////////////////////////////////////////////////////////
 app.listen(port,()=>{
     console.log(`server is working at port ${port}`)
