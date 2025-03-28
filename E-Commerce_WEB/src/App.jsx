@@ -16,6 +16,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './Pages/Verify'
 
+// import { useState, useEffect, memo } from "react"
+
 function App() {
 
 
@@ -50,3 +52,42 @@ function App() {
 }
 
 export default App
+
+//  let newvar = "1"
+
+// console.log("hello")
+
+
+
+// export default function App(){ //render
+  
+//   const [newvar,setNewvar] = useState("1")
+ 
+//   useEffect(() => {
+//    console.log("useeffect-1")
+//     // setNewvar("5")
+//     return () =>{console.log("nigga")}
+//   }, [newvar])
+  
+  
+  
+  
+//   // setNewvar("2")
+  
+//   return <><h1>hello world{newvar}</h1>
+//    <input value={newvar} onChange={e=>setNewvar(e.target.value)}/>
+//    <Newmemo newvar={newvar}/>
+//    </>
+
+
+
+
+// }
+
+// let Newmemo = memo(
+// function Newfunction({newvar}){
+
+//   console.log("1")
+//   return <h1>hello</h1>
+
+// })
