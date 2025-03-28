@@ -10,6 +10,7 @@ import List from "./Pages/List.jsx";
 import { useEffect, useState } from "react";
 import Login from "./Components/Login.jsx";
 import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 export const URL_Backend = "https://e-commerce-full-stack-backend-f3dl.onrender.com"
 export const currency = '₹'
