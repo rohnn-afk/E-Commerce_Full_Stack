@@ -15,7 +15,7 @@ const ShopContextProvider = (props)=>{
 
     const deliveryfee = 100;
 
-    const backendUrl = import.meta.env.VITE_URL_BACKEND 
+    const backendUrl = "https://e-commerce-full-stack-backend-f3dl.onrender.com" 
     
     const [search,setSearch] = useState('')
     const [showSearch, setShowSearch] = useState(true)

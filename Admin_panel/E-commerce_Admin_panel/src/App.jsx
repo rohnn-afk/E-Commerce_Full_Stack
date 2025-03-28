@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import Login from "./Components/Login.jsx";
 import { ToastContainer } from 'react-toastify';
 
-export const URL_Backend = import.meta.env.VITE_URL_BACKEND
+export const URL_Backend = "https://e-commerce-full-stack-backend-f3dl.onrender.com"
 export const currency = '₹'
 
 function App() {
