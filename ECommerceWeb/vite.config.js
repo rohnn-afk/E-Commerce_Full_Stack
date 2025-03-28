@@ -3,14 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      external: ["react-router-dom"],
-    },
-  },
   plugins: [react()],
   optimizeDeps: {
-    include: ['react-toastify'],
+    include: ['react-toastify', 'react-router-dom'], // Ensure it's included
   },
-  server:{port:5173}
+  server: { port: 5173 },
 })
