@@ -1,8 +1,8 @@
 import jwt from "jsonwebtoken";
 import UserModel from "../Models/UserModel.js";
-import bcrypt from 'bcrypt'
 import validator from 'validator'
 import dotenv from'dotenv'
+import bcrypt from "bcryptjs";
 
 dotenv.config()
 
