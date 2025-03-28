@@ -15,12 +15,9 @@ const ShopContextProvider = (props)=>{
 
     const deliveryfee = 100;
 
-<<<<<<< HEAD
+
     const backendUrl = "https://e-commerce-full-stack-backend-f3dl.onrender.com" 
-=======
-    const backendUrl = "https://e-commerce-full-stack-backend-f3dl.onrender.com"
->>>>>>> 659a75a1c69cc2271f33ca7833ecc522f7e40339
-    
+
     const [search,setSearch] = useState('')
     const [showSearch, setShowSearch] = useState(true)
     const [cart,setCart] =  useState({})
