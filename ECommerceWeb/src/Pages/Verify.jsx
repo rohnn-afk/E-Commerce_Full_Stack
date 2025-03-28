@@ -2,13 +2,15 @@ import  { useContext, useEffect } from 'react'
 import { shopContext } from '../Context/ShopContext'
 import { useSearchParams } from 'react-router-dom'
 import axios from'axios'
-import { URL_Backend } from '../../../Admin_panel/E-commerce_Admin_panel/src/App'
 import { toast } from 'react-toastify'
 
 const Verify = () => {
 
-    const {token , navigate ,cart, setCart} = useContext(shopContext)
-    const [params,setParams] = useSearchParams()
+    const {token , navigate , setCart} = useContext(shopContext)
+    const [params] = useSearchParams()
+
+    
+    const URL_Backend = "https://e-commerce-full-stack-backend-f3dl.onrender.com" 
 
     const success = params.get('success')
     const orderId = params.get('orderId')
