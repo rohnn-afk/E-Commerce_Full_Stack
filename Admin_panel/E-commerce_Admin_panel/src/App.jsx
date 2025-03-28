@@ -13,7 +13,7 @@ import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
 export const URL_Backend = "https://e-commerce-full-stack-backend-f3dl.onrender.com"
-export const currency = '₹'
+export const currency = '₹.'
 
 function App() {
 
