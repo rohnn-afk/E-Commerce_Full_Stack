@@ -9,5 +9,8 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  optimizeDeps: {
+    include: ['react-toastify'],
+  },
   server:{port:5173}
 })
